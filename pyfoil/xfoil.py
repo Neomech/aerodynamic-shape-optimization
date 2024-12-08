@@ -13,7 +13,7 @@ def run_xfoil():
     results_dict = read_xfoil_pacc_file('pacc_results.txt')
     
     # reset files
-    os.system('rm -rf pacc_results.txt')
+    os.remove('pacc_results.txt')
     
     return results_dict
     

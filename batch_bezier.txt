@@ -7,3 +7,5 @@ pacc
 pacc_results.txt
 
 alfa 0
+
+quit
